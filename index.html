@@ -14,11 +14,14 @@
     </header>
     <label for="bill-amt">Enter the bill amount</label>
     <input id="bill-amt" type="number">
-    <label for="cash-paid">Enter the cash paid</label>
-    <input id="cash-paid" type="number">
-    <button id="btn-check">Check</button>
+    <button id="btn-proceed">Proceed</button>
+    <div id="cash">
+        <label for="cash-paid">Enter the cash paid</label>
+        <input id="cash-paid" type="number">
+        <button id="btn-check">Check</button>
+    </div>
     <p id="err-msg"></p>
-    <table>
+    <table id="change-table">
         <caption>Return change</caption>
         <tbody>
             <tr>

@@ -58,3 +58,9 @@ caption{
     font-size: 20px;
     font-weight: bold;
 }
+#btn-proceed{
+    display: block;
+}
+#change-table,#cash{
+    display: none;
+}
