@@ -12,20 +12,24 @@ body{
 }
 header{
     background-color: var(--primary-color);
-    /* border-bottom-left-radius: 2rem ; */
-    padding: 1rem;
-    /* padding-right: 0.5rem ;
-    padding-bottom: 0.5rem; */
     color: white;
     margin-bottom: 2rem;
+}
+h1{
+    margin-top: 0;
+    padding: 0.5rem;
 }
 input{
     display: block;
     margin: 1rem auto;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    font-size: 15px;
+    text-align: center;
 }
 button{
     background-color: var(--primary-color);
-    /* border: 1px solid var(--primary-color); */
     border-radius: 0.5rem;
     padding: 1rem 3rem;
     font-weight: bold;
@@ -45,7 +49,11 @@ table{
 }
 table, th, td{
     border: 2px solid var(--primary-color) ;
-    width: 500px;
+    max-width: 500px;
+    
+}
+td,th{
+    width: 10%;
 }
 caption{
     margin: 0.5rem auto;
@@ -63,4 +71,22 @@ caption{
 }
 #change-table,#cash{
     display: none;
+}
+ul{
+    padding-inline-start: 0;
+}
+.fab,.fas{
+    font-size: 30px;
+    color: var(--primary-color);
+    margin: 0 0.5rem;
+}
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
